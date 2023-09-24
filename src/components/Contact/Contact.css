@@ -1,0 +1,155 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 110px;
+  flex-direction: column;
+}
+
+.contact-desc {
+  font-size: 1.05rem;
+  color: #616161;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.box-left {
+  width: 43%;
+}
+
+.box-right {
+  width: 57%;
+}
+
+.box-left,
+.box-right {
+  box-shadow: 3px 3px 10px 3px #b5b3b3;
+  border-top: 3px solid #47b2e4;
+  border-bottom: 3px solid #47b2e4;
+}
+
+.details {
+  display: flex;
+  padding: 0 40px;
+  margin-top: 30px;
+}
+
+.details-icon {
+  color: #47b2e4;
+  transition: all 0.3s ease-in;
+}
+
+.details:hover .details-icon {
+  color: white;
+  background-color: #47b2e4;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.form-btn {
+  background-color: #31a9e1;
+  padding: 12px 15px;
+  font-weight: 500;
+  color: white;
+  width: 150px;
+  border-radius: 50px;
+  transition: 0.5s;
+  font-size: 15px;
+}
+
+label {
+  color: #706f6f;
+  padding: 0 0 10px 0px;
+}
+
+.box-right input {
+  border: 1px solid #b5b3b3;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+
+.box-right textarea {
+  border: 1px solid #b5b3b3;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+
+@media screen and (width<1345px) {
+  .box-left,
+  .box-right {
+    height: 110vh;
+  }
+}
+
+@media screen and (width<1062px) {
+  .contact {
+    padding: 0 80px;
+  }
+
+  .box-left img {
+    height: 300px;
+  }
+}
+
+@media screen and (width<840px) {
+  .contact-desc {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .box {
+    flex-direction: column;
+  }
+
+  .box-left,
+  .box-right {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .box-right textarea {
+    height: 180px;
+  }
+}
+
+@media screen and (width<450px) {
+  .details {
+    flex-direction: column;
+    padding: 0 20px;
+    margin-top: 10px;
+  }
+  .details .details-icon {
+    width: fit-content;
+  }
+
+  .box-left img {
+    height: 250px;
+  }
+}

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "cs-sewa";
+  src: url(./assets/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.ttf);
+}
+
+@font-face {
+  font-family: "font";
+  src: url(./assets/92zatBhPNqw73oTd4g.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "cs-sewa";
+}

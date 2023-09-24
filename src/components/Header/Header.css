@@ -1,0 +1,143 @@
+.hero {
+  height: 70vh;
+  background-color: #37517e;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  gap: 10px;
+  padding-right: 70px;
+  margin-top: -40px;
+  height: 100%;
+}
+
+.hero .hero-heading {
+  font-family: "font";
+  font-size: 3.3rem;
+  color: white;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.hero .hero-para {
+  font-size: 1.5rem;
+  font-family: "font";
+  line-height: 30px;
+  font-weight: bold;
+  color: #afb9cb;
+}
+
+.hero-btn {
+  background-color: #31a9e1;
+  padding: 12px 15px;
+  font-weight: bold;
+  color: white;
+  width: 150px;
+  border-radius: 50px;
+  transition: 0.5s;
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+.hero-btn:hover {
+  background-color: #209dd8;
+}
+
+.right {
+  margin-top: -90px;
+  height: 100%;
+}
+
+.post-btn {
+  background-color: #31a9e1;
+  padding: 10px 13px;
+  font-weight: bold;
+  color: white;
+  width: 150px;
+  border-radius: 50px;
+  transition: 0.5s;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.hero-img {
+  height: 70vh;
+  width: 50vw;
+}
+
+@media screen and (width<1062px) {
+  .hero .left {
+    padding-right: 0px;
+  }
+  .hero .hero-heading {
+    font-size: 2.5rem;
+  }
+
+  .hero .hero-para {
+    font-size: 1.3rem;
+  }
+
+  .hero .hero-btn {
+    margin-top: 25px;
+  }
+  .hero-img {
+    height: 55vh;
+    width: 42vw;
+  }
+}
+@media screen and (width<840px) {
+  .hero {
+    flex-direction: column-reverse;
+    height: 130vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  .hero .left {
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .left .hero-heading {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .hero .left .hero-para {
+    text-align: center;
+  }
+}
+
+@media screen and (width<595px) {
+  .hero .left .hero-heading {
+    font-size: 2.5rem;
+  }
+
+  .hero .left .hero-para {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .hero .right {
+    margin-top: -50px;
+  }
+  .hero .right .hero-img {
+    height: 45vh;
+    width: 38vh;
+  }
+}
+
+@media screen and (width<450px) {
+  .hero .left .hero-heading {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .hero .left .hero-para {
+    font-size: 1rem;
+  }
+}

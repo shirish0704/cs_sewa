@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
             </div>
             <img
-              src="/src/images/map.png"
+              src="https://www.google.com/maps/d/thumbnail?mid=1YeV-CBqH1wi1X9q1UyoHyl-5ais&hl=en_US"
               alt=""
               className="p-8 mb-7 max-[1345px]:p-6 max-[1345px]:mb-1"
             />

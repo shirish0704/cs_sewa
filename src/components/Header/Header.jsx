@@ -15,7 +15,11 @@ const Header = () => {
           <button className="hero-btn">Get Started</button>
         </div>
         <div className="right">
-          <img src="/src/images/hero-img1.png" alt="" className="hero-img" />
+          <img
+            src="https://www.cssewa.com/assets/img/hero-img1.png"
+            alt=""
+            className="hero-img"
+          />
         </div>
       </div>
       <ListComp />

@@ -49,13 +49,17 @@ const About = () => {
           </p>
         </div>
         <div className="team-right">
-          <img src="/src/images/why-us.png" alt="" className="team-image" />
+          <img
+            src="https://www.cssewa.com/assets/img/why-us.png"
+            alt=""
+            className="team-image"
+          />
         </div>
       </div>
 
       <div className="choose">
         <div className="choose-img">
-          <img src="/src/images/skills.png" alt="" />
+          <img src="https://www.cssewa.com/assets/img/skills.png" alt="" />
         </div>
         <div className="choose-text">
           <h3>Why Choose CS Sewa?</h3>

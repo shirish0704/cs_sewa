@@ -94,10 +94,14 @@ label {
   outline: none;
 }
 
+.box-left img {
+  height: 350px;
+}
+
 @media screen and (width<1345px) {
   .box-left,
   .box-right {
-    height: 110vh;
+    height: 117vh;
   }
 }
 

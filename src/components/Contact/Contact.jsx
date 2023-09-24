@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
             </div>
             <img
-              src="/src/assets/map.png"
+              src="/src/images/map.png"
               alt=""
               className="p-8 mb-7 max-[1345px]:p-6 max-[1345px]:mb-1"
             />

@@ -119,6 +119,9 @@
 }
 
 @media screen and (width<595px) {
+  .hero {
+    padding: 50px;
+  }
   .hero .left .hero-heading {
     font-size: 2.5rem;
   }
@@ -129,7 +132,7 @@
   }
 
   .hero .right {
-    margin-top: -50px;
+    margin-top: -30px;
   }
   .hero .right .hero-img {
     height: 45vh;
@@ -150,6 +153,6 @@
   }
   .hero .right .hero-img {
     height: 300px;
-    width: 42vh;
+    width: 300px;
   }
 }

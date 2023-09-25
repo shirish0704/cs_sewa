@@ -100,7 +100,7 @@
 
   .about-team {
     padding: 30px 60px;
-    height: 90vh;
+    height: 60vh;
   }
 
   .team-left h3 {
@@ -114,7 +114,7 @@
 
   .team-image {
     width: 290vw;
-    height: 55vh;
+    height: 450px;
   }
 
   .choose {
@@ -122,8 +122,8 @@
   }
 
   .choose-img img {
-    height: 45vh;
-    width: 230vh;
+    height: 350px;
+    width: 180vh;
   }
 
   .choose-text h3 {
@@ -192,14 +192,18 @@
 
   .about-team {
     padding: 10px 60px;
-    height: 140vh;
+    height: 130vh;
     flex-direction: column !important;
     gap: 25px;
   }
 
   .team-image {
     width: 240vw;
-    height: 45vh;
+    height: 350px;
+  }
+  .choose-img img {
+    height: 250px;
+    width: 150vh;
   }
 }
 

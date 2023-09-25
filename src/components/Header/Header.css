@@ -93,13 +93,14 @@
 @media screen and (width<840px) {
   .hero {
     flex-direction: column-reverse;
-    height: 130vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
   }
   .hero .left {
-    padding-top: 50px;
+    padding-top: 80px;
+    margin-bottom: -30px;
     justify-content: center;
     align-items: center;
   }
@@ -110,6 +111,10 @@
   }
   .hero .left .hero-para {
     text-align: center;
+  }
+  .hero .right .hero-img {
+    height: 420px;
+    width: 38vh;
   }
 }
 
@@ -133,11 +138,18 @@
 }
 
 @media screen and (width<450px) {
+  .hero {
+    height: 100vh;
+  }
   .hero .left .hero-heading {
     font-size: 2rem;
     line-height: 40px;
   }
   .hero .left .hero-para {
     font-size: 1rem;
+  }
+  .hero .right .hero-img {
+    height: 300px;
+    width: 38vh;
   }
 }

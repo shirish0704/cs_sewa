@@ -33,6 +33,7 @@
   box-shadow: 3px 3px 10px 3px #b5b3b3;
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
+  height: 650px;
 }
 
 .details {
@@ -101,7 +102,7 @@ label {
 @media screen and (width<1345px) {
   .box-left,
   .box-right {
-    height: 117vh;
+    height: 650px;
   }
 }
 
@@ -128,6 +129,7 @@ label {
   .box-left,
   .box-right {
     width: 100%;
+    height: 650px;
   }
 
   .row {
@@ -138,12 +140,24 @@ label {
     width: 100%;
   }
 
+  .box-left img {
+    margin-left: 100px;
+    height: 350px;
+  }
+
   .box-right textarea {
     height: 180px;
   }
 }
 
 @media screen and (width<450px) {
+  .contact {
+    padding: 0 40px;
+  }
+  .box-left,
+  .box-right {
+    height: 95vh;
+  }
   .details {
     flex-direction: column;
     padding: 0 20px;
@@ -155,5 +169,6 @@ label {
 
   .box-left img {
     height: 250px;
+    margin-left: 0px;
   }
 }

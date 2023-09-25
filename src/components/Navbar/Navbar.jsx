@@ -16,20 +16,20 @@ const NavbarWithSlider = () => {
           <Button className=" border-light border-2 mr-3 rounded-3xl font-bold hover:bg-light transition-all ease-in duration-200">
             Get started
           </Button>
-          <Navbar.Toggle className="text-light" />
+          <Navbar.Toggle className="text-light hover:bg-darkblue" />
         </div>
         <Navbar.Collapse>
-          <Navbar.Link>
+          <Navbar.Link className="border-y-transparent hover:bg-opacity-20">
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `${isActive ? "text-light" : "text-white"} hover:text-light`
+                `${isActive ? "text-light" : "text-white"} hover:text-light `
               }
             >
               Home
             </NavLink>
           </Navbar.Link>
-          <Navbar.Link>
+          <Navbar.Link className="border-y-transparent hover:bg-opacity-20">
             <NavLink
               to="/about"
               className={({ isActive }) =>
@@ -39,7 +39,7 @@ const NavbarWithSlider = () => {
               About
             </NavLink>
           </Navbar.Link>
-          <Navbar.Link>
+          <Navbar.Link className="border-y-transparent hover:bg-opacity-20">
             <NavLink
               to="/services"
               className={({ isActive }) =>
@@ -49,7 +49,7 @@ const NavbarWithSlider = () => {
               Services
             </NavLink>
           </Navbar.Link>
-          <Navbar.Link>
+          <Navbar.Link className="border-y-transparent hover:bg-opacity-20">
             <NavLink
               to="/contact"
               className={({ isActive }) =>

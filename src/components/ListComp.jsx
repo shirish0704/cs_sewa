@@ -5,8 +5,8 @@ import Post from "./Post";
 const ListComp = () => {
   const [posts, setPosts] = useState([]);
 
-  const fetchPosts = () => {
-    fetch("https://jsonplaceholder.typicode.com/posts?_limit=6")
+  const fetchPosts = async () => {
+    await fetch("https://jsonplaceholder.typicode.com/posts?_limit=6")
       .then((response) => response.json())
       .then((data) => {
         setPosts(data);
@@ -17,8 +17,8 @@ const ListComp = () => {
     fetchPosts();
   }, []);
 
-  const addPost = (title, body, id) => {
-    fetch("https://jsonplaceholder.typicode.com/posts", {
+  const addPost = async (title, body, id) => {
+    await fetch("https://jsonplaceholder.typicode.com/posts", {
       method: "POST",
       body: JSON.stringify({
         title: title,

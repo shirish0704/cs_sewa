@@ -132,17 +132,19 @@
   }
 
   .hero .right {
-    margin-top: -30px;
+    margin-top: 0px;
   }
   .hero .right .hero-img {
-    height: 45vh;
-    width: 38vh;
+    height: 450px;
+    width: 380px;
   }
 }
 
 @media screen and (width<450px) {
   .hero {
-    height: 100vh;
+    justify-content: space-evenly;
+    padding: 30px;
+    height: 130vh;
   }
   .hero .left .hero-heading {
     font-size: 2rem;
@@ -154,5 +156,8 @@
   .hero .right .hero-img {
     height: 300px;
     width: 300px;
+  }
+  .hero .left {
+    padding-top: 0px;
   }
 }

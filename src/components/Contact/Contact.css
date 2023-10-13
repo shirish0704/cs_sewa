@@ -156,7 +156,7 @@ label {
   }
   .box-left,
   .box-right {
-    height: 95vh;
+    height: 630px;
   }
   .details {
     flex-direction: column;
@@ -168,7 +168,7 @@ label {
   }
 
   .box-left img {
-    height: 250px;
+    height: 270px;
     margin-left: 0px;
   }
 }

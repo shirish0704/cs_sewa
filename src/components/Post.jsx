@@ -1,7 +1,7 @@
 const Post = ({ title, id, body, deletePost }) => {
   return (
     <>
-      <div className="container  px-32 py-5 max-[840px]:px-24">
+      <div className="container  px-32 py-5 max-[840px]:px-24 max-[450px]:px-14">
         <div className="post-card flex flex-col justify-center">
           <h2 className="text-xl font-bold text-black">{title}</h2>
           <p className="text-gray-500 font-thin">{body}</p>

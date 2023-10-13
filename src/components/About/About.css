@@ -113,8 +113,8 @@
   }
 
   .team-image {
-    width: 290vw;
-    height: 450px;
+    width: 1500px;
+    height: 300px;
   }
 
   .choose {
@@ -122,8 +122,8 @@
   }
 
   .choose-img img {
-    height: 350px;
-    width: 180vh;
+    height: 270px;
+    width: 900px;
   }
 
   .choose-text h3 {
@@ -149,7 +149,7 @@
   }
 
   .about-team {
-    padding: 30px 60px;
+    padding: 30px 40px;
     height: 130vh;
     flex-direction: column !important;
     gap: 30px;
@@ -159,18 +159,18 @@
     font-size: 0.82rem;
   }
 
-  .team-image {
-    width: 250vw;
-    height: 50vh;
+  .team-right .team-image {
+    width: 800px;
+    height: 250px;
   }
 
   .choose {
     flex-direction: column-reverse;
   }
 
-  .choose-img img {
-    height: 50vh;
-    width: 180vh;
+  .choose .choose-img img {
+    height: 200px;
+    width: 300px;
   }
 
   .choose-text h3 {
